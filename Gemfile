@@ -37,12 +37,12 @@ gem 'activeadmin', '~> 1.0.0.pre1'
 # Devise for authentication
 gem 'devise'
 
-# Blogit
-gem "blogit"
-# Blogit depends on ActsAsTaggableOn
-gem "acts-as-taggable-on"
+# Foundation for CSS
+gem 'foundation-rails'
 
 group :development, :test do
+  gem 'dotenv-rails', :require => 'dotenv/rails-now'
+
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
@@ -63,3 +63,9 @@ group :development, :test do
   gem 'peek'
 end
 
+# Blogit
+gem "blogit", path: '/home/sal/workspace/blogit'
+# Blogit depends on ActsAsTaggableOn
+gem "acts-as-taggable-on"
+# Blogit Admin
+gem "blogit-admin", path: '/home/sal/workspace/blogit-admin'
