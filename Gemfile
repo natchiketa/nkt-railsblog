@@ -64,11 +64,11 @@ group :development, :test do
 end
 
 # Blogit
-gem "blogit", path: '/home/sal/workspace/blogit'
+gem "blogit", github: 'natchiketa/blogit'
 # Blogit depends on ActsAsTaggableOn
 gem "acts-as-taggable-on"
 # Blogit Admin
-gem "blogit-admin", path: '/home/sal/workspace/blogit-admin'
+gem "blogit-admin", github: 'natchiketa/blogit-admin'
 
 group :production do
   gem "rails_12factor"

@@ -1,5 +1,13 @@
-PATH
-  remote: /home/sal/workspace/blogit
+GIT
+  remote: git://github.com/natchiketa/blogit-admin.git
+  revision: 748e3071c7ec6e034683b28d5e6f11094ef91ca1
+  specs:
+    blogit-admin (0.1.0.0)
+      epic-editor-rails
+
+GIT
+  remote: git://github.com/natchiketa/blogit.git
+  revision: d15cdf811f7b57a4ef812431921df7b1f05b9b0a
   specs:
     blogit (1.1.1)
       RedCloth (>= 4.2.9)
@@ -9,12 +17,6 @@ PATH
       kaminari (>= 0.13.0)
       nokogiri (>= 1.5.0)
       redcarpet (>= 2.0.1)
-
-PATH
-  remote: /home/sal/workspace/blogit-admin
-  specs:
-    blogit-admin (0.1.0.0)
-      epic-editor-rails
 
 GEM
   remote: https://rubygems.org/
